@@ -1,4 +1,4 @@
-Application of ecomerce integrated with PayPal service. 
+Ecomerce application that uses PayPal service. 
  
 Remember, create file paypal.yml in the directory config like gem 'paypal-sdk-rest'
 

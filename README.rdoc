@@ -1,28 +1,18 @@
-== README
+Application of ecomerce integrated with PayPal service. 
+ 
+Remember, create file paypal.yml in the directory config like gem 'paypal-sdk-rest'
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The topics that you can find are:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+  * Multiple layout
+  * Landing page
+  * Send email with AJAX
+  * Form builder
+  * CRUD actions
+  * Upload avatar
+  * Upload files
+  * Paid with Paypal and credit card
+  * Shopping cart and cookies
+  * Metaprogramming
+  * Send email with the link to donwload the purchased product
+  

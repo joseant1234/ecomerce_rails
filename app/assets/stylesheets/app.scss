@@ -1,0 +1,28 @@
+img{
+	max-width: 100% !important;
+}
+.tall-padding{
+	padding: 10px 5px;
+}
+.right-space{
+	margin-right: 1em;
+}
+.close-parent{
+	cursor: pointer;
+}
+.payment-btn{
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	padding: 1em 2em;
+	outline: none;
+}
+a:hover{
+	color: inherit !important;
+}
+.paypal-btn{
+	background-color: #FE1935;
+}
+.card-btn{
+	background-color: #1D785B;
+}

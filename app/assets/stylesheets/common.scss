@@ -1,0 +1,143 @@
+@import "bootstrap";
+
+$green: #16a085;
+$grey: #5A6576;
+$other-grey: #E7ECEE;
+$blue: #058CC5;
+$red: #d2527f;
+$light-blue: #3498DB;
+
+/* Texto */
+.bold{
+	font-weight: bold;
+}
+/* Colores */
+.white{
+	background-color: white
+}
+.white-text{
+	color: white
+}
+
+.green{
+	background-color: $green;
+}
+.green-text{
+	color: $green;
+}
+
+.blue{
+	background-color: $blue;
+}
+.blue-text{
+	color: $blue;
+}
+
+.light-blue{
+	background-color: $light-blue
+}
+.light-blue-tet{
+	color: $light-blue
+}
+
+.red{
+	background-color: $red;
+}
+.red-text{
+	color: $red;
+}
+
+.grey{
+	background-color: $grey;
+}
+.grey-text{
+	color: $grey;
+}
+
+.other-grey{
+	background-color: $other-grey;
+}
+.other-grey-text{
+	color: $other-grey;
+}
+
+/* Padding */
+.large-padding{
+	padding: 5px 10px;	
+}
+
+.big-padding{
+	padding: 2em;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+/* Margins */
+.no-margin{
+	margin: 0;	
+}
+
+.bottom-space{
+	marging-bottom: 2em;	
+}
+.big-top-space{
+	margin-top: 50px;
+}
+
+.top-space{
+	margin-top: 1em;
+}
+
+
+/* Alineamiento */
+.no-float{
+	float: none !important;
+}
+
+.in-top{
+	vertical-align: top !important;
+}
+
+.inline-block{
+	float: none !important;
+	display: inline-block;
+	vertical-align:  middle;
+	/* con inline-block se debe colocar margin -4px xq coloca un margen*/
+	margin-right: -4px;
+}
+
+/* Tamaños */
+.absolute{
+	position: absolute;
+}
+
+.small{
+	font-size: 12px;
+}
+
+.more-small{
+	font-size: 1.2em;
+}
+
+.medium{
+	font-size: 1.5em;
+}
+
+.big{
+	font-size: 3em;
+}
+
+.bigger{
+	font-size: 4em;
+}
+
+.ultra-big{
+
+	font-size: 7em;
+}
+
+
+
+

@@ -1,0 +1,7 @@
+%article
+	%h3.large-padding.red.white-text.no-margin= link_to product.name, product, class: "white-text"
+	.large-padding.text-left
+		.col-md-9.inline-block.no-padding= product.description
+		.col-md-9.inline-block.no-padding
+			=product.sales.count 
+			ventas

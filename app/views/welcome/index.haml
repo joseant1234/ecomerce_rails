@@ -1,0 +1,9 @@
+.col-xs-12.col-md-10.center-block.no-float
+	.card.large-padding
+		.top-space
+			.col-md-3.col-xs-12.inline-block.no-padding.in-top
+				.text-center
+					=link_to "Crear producto", new_product_path, class: "btn btn-info"
+				=render current_user.products
+			.col-md-9.col-xs-12.inline-block
+				=render "payments/index"
